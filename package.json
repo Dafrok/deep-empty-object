@@ -14,7 +14,10 @@
   "author": "Dafrok",
   "license": "MIT",
   "repository": {
-      "type": "git",
-      "url": "git://github.com/Dafrok/deep-empty-object.git"
+    "type": "git",
+    "url": "git://github.com/Dafrok/deep-empty-object.git"
+  },
+  "devDependencies": {
+    "jasmine": "^2.4.1"
   }
 }
