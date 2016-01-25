@@ -50,7 +50,7 @@ describe('Single empty object', function () {
     })
 })
 
-describe('All objects in a complex object are empty.', function () {
+describe('All objects in an object are empty.', function () {
     it('object', function () {
         expect(false).toEqual(empty.all({
             foo: {},
@@ -367,59 +367,3 @@ describe('Some objects in a complex object are empty.', function () {
         }))
     })
 });
-
-// var jasmine = require('jasmine')
-// var empty = require('../index.js')
-// console.log()
-// var testCase = [
-//     {
-//         foo: [],
-//         bar: {}
-//     },
-//     {
-//         foo: [0],
-//         bar: {}
-//     },
-//     {
-//         foo: [],
-//         bar: {
-//             baz: 0
-//         }
-//     },
-//     {
-//         foo: [0],
-//         bar: {
-//             baz: 0
-//         },
-//         qux: ''
-//     },
-//     {
-//         foo: [],
-//         bar: {
-//             baz: 0
-//         },
-//         qux: 'str'
-//     },
-//     {
-//         foo: [],
-//         bar: {
-//             baz: 0
-//         },
-//         qux: false
-//     },
-//     {
-//         foo: [false],
-//         bar: {
-//             baz: 0
-//         },
-//         qux: true
-//     }
-// ]
-
-// // for (var i = 0; i < testCase.length; i++) {
-// //     console.log('all:', testCase[i], empty.all(testCase[i]));
-// //     console.log('some:', testCase[i], empty.some(testCase[i]));
-// // }
-function empty() {
-    return 'abc'
-}
