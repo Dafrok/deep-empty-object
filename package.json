@@ -4,7 +4,8 @@
   "description": "Check an object, if all or some of its leaf nodes are empty. It detects empty string, empty array, empty object, null, undefined in the target object.",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine test/test.js"
+    "test": "jasmine test/test.js",
+    "fecs": "fecs check index.js test/ --reporter=baidu"
   },
   "keywords": [
     "object",
@@ -14,7 +15,11 @@
   "author": "Dafrok",
   "license": "MIT",
   "repository": {
-      "type": "git",
-      "url": "git://github.com/Dafrok/deep-empty-object.git"
+    "type": "git",
+    "url": "git://github.com/Dafrok/deep-empty-object.git"
+  },
+  "devDependencies": {
+    "fecs": "^0.6.0-beta.2",
+    "jasmine": "^2.4.1"
   }
 }
