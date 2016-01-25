@@ -1,0 +1,19 @@
+{
+  "name": "deep-empty-object",
+  "version": "1.0.0",
+  "description": "Check an object if all of its leaf nodes are empty.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine test/test.js"
+  },
+  "keywords": [
+    "object",
+    "deep",
+    "empty"
+  ],
+  "author": "Dafrok",
+  "license": "MIT",
+  "repository": {
+      "type": "git"
+  }
+}
