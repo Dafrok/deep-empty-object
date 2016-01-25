@@ -48,3 +48,17 @@ empty.some({
 ```
 $ npm test
 ```
+
+## Develop
+
+```js
+// Installation depends
+npm run install
+
+// Use fecs run Style Checker
+npm run fecs
+
+// Use mocha run the test case
+npm run test
+```
+
