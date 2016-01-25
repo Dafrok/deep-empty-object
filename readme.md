@@ -58,7 +58,7 @@ npm run install
 // Use fecs run Style Checker
 npm run fecs
 
-// Use mocha run the test case
+// Use jasmine run the test case
 npm run test
 ```
 
