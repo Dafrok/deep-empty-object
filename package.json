@@ -14,6 +14,7 @@
   "author": "Dafrok",
   "license": "MIT",
   "repository": {
-      "type": "git"
+      "type": "git",
+      "url": "git://github.com/Dafrok/deep-empty-object.git"
   }
 }
