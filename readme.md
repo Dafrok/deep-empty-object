@@ -44,11 +44,6 @@ empty.some({
 - param {object} obj
 - return {boolean} If some of the leaf nodes of the target object, include array, object, string, null, undefined are empty, it will be true, else, false.
 
-## Test
-```
-$ npm test
-```
-
 ## Develop
 
 ```js
@@ -61,4 +56,3 @@ npm run fecs
 // Use jasmine run the test case
 npm run test
 ```
-

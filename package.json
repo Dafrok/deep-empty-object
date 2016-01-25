@@ -1,6 +1,6 @@
 {
   "name": "deep-empty-object",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Check an object, if all or some of its leaf nodes are empty. It detects empty string, empty array, empty object, null, undefined in the target object.",
   "main": "index.js",
   "scripts": {
